@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Folder" representedClassName="Folder" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="HomeFolder" representedClassName="HomeFolder" syncable="YES">
+        <attribute name="folderName" attributeType="String" defaultValueString=""/>
+        <attribute name="folderType" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES" codeGenerationType="class">
+        <attribute name="tag" optional="YES" attributeType="String"/>
+    </entity>
+</model>
